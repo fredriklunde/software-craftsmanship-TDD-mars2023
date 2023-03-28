@@ -1,4 +1,4 @@
-# TDD Kata 1 - String Calculator
+# Kata 2 - String Calculator
 
 ## Before you start
 - Try not to read ahead.
@@ -26,22 +26,22 @@ Allow the `Add` method to handle an unknown amount of numbers.
 ## Task 3
 
 Allow the `Add` method to handle new lines between numbers (instead of commas).
-- the following input is ok: `ì1\n2,3î == 6`
-- the followint is INVALID input, so do not expect it: `ì1,\nî` (no need to
+- the following input is ok: `‚Äú1\n2,3‚Äù == 6`
+- the followint is INVALID input, so do not expect it: `‚Äú1,\n‚Äù` (no need to
   write a test for it)
   
 ## Task 4
 
 Support different delimiters:
 - To change a delimiter, the beginning of the string will contain a separate
-  line that looks like this: `ì//[delimiter]\n[numbersÖ]î`, for example
-  `ì//;\n1;2î == 3`, since the default delimiter is `;`.
+  line that looks like this: `‚Äú//[delimiter]\n[numbers‚Ä¶]‚Äù`, for example
+  `‚Äú//;\n1;2‚Äù == 3`, since the default delimiter is `;`.
 - **Note:** All existing scenarios and tests should still be supported
 
 ## Task 5
 
-Calling `Add` with a negative number will throw an exception `ìnegatives not 
-allowedî` and the negative that was passed.
+Calling `Add` with a negative number will throw an exception `‚Äúnegatives not 
+allowed‚Äù` and the negative that was passed.
 
 ## Task 6
 
