@@ -1,5 +1,5 @@
-﻿﻿# Kata 1: Leap Years
---------- --------- --------- --------- --------- --------- --------- --------- |
+# Kata 1: Leap Years
+
 Implement the `IsLeap()` function of the `Year` class, so that it returns `true`
 or `false` depending on whether its input integer is a leap year or not.
 
