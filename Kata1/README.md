@@ -3,6 +3,7 @@
 This solution contains two projects:
 - A c# console application called `Kata1`
 - A NUnit test project called `Kata1Tests`
+- 
 Both are targeting `net6.0`
 
 ## Kata description
