@@ -1,15 +1,42 @@
 # Kata 1: Leap Years
 
+Before you start:
+- Do one task at a time. Try not to read ahead. The trick is to learn to work incrementally.
+- Test first!
+
+## Description
+
 Implement the `isLeap()` function in the `year.js` file, so that it returns
 `true` or `false` depending on whether its input integer is a leap year or not.
 
-**A leap year is divisible by 4, but is not otherwise divisible by 100, unless
-it is also divisible by 400. E.g.:**
+### Task 1
+All years divisible by 400 ARE leap years (so, for example, 2000 was indeed a leap year)
 
-- 1996 --> true
-- 2001 --> false
-- 2000 --> true
-- 1900 --> false
+### Task 2
+All years divisible by 100 but not by 400 are NOT leap years (so, for example, 1700, 1800, and 1900 were NOT leap years, NOR will 2100 be a leap year)
+
+### Task 3
+All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016)
+
+### Task 4
+All years not divisible by 4 are NOT leap years (e.g. 2017, 2018, 2019)
+
+## Bonus tasks
+
+### Task 5
+Write a function `getDayNumber()` that takes a date as an argument, and returns the day of the year. e.g.:
+- January 1, 2023 --> returns 1
+- December 31, 2022 --> returns 365
+- March 1, 2023 --> returns 60
+- March 1, 2020 --> returns 61
+
+### Task 6
+Write a function `getWeekNumber()` that takes a date as an argument, and returns the calendar week, e.g.:
+- March 29, 2023 --> returns week 13
+
+### Task 6
+Write a function `getWeekDay()` that takes a date as an argument, and returns the day of the week, e.g.:
+- March 29, 2023 --> returns Wednesday
 
 # Commands:
 
