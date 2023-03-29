@@ -21,6 +21,23 @@ All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016)
 ### Task 4
 All years not divisible by 4 are NOT leap years (e.g. 2017, 2018, 2019)
 
+## Bonus tasks
+
+### Task 5
+Write a function `GetDayNumber()` that takes a date as an argument, and returns the day of the year. e.g.:
+- January 1, 2023 --> returns 1
+- December 31, 2022 --> returns 365
+- March 1, 2023 --> returns 60
+- March 1, 2020 --> returns 61
+
+### Task 6
+Write a function `GetWeekNumber()` that takes a date as an argument, and returns the calendar week, e.g.:
+- March 29, 2023 --> returns week 13
+
+### Task 6
+Write a function `GetWeekDay()` that takes a date as an argument, and returns the day of the week, e.g.:
+- March 29, 2023 --> returns Wednesday
+
 # Commands:
 
 Install the packages:
