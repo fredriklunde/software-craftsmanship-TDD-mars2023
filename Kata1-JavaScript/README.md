@@ -1,6 +1,5 @@
 # Kata 1: Leap Years
 
-123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 |
 Implement the `isLeap()` function in the `year.js` file, so that it returns
 `true` or `false` depending on whether its input integer is a leap year or not.
 
