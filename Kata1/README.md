@@ -6,18 +6,26 @@ This solution contains two projects:
 
 Both are targeting `net6.0`
 
-## Kata description
+## Before you start:
+- Do one task at a time. Try not to read ahead. The trick is to learn to work incrementally.
+- Test first!
+
+## Description
 
 Implement the `IsLeap()` function of the `Year` class, so that it returns `true`
 or `false` depending on whether its input integer is a leap year or not.
 
-**A leap year is divisible by 4, but is not otherwise divisible by 100, unless 
-it is also divisible by 400. E.g.:**
+### Task 1
+All years divisible by 400 ARE leap years (so, for example, 2000 was indeed a leap year)
 
-- 1996 --> true  
-- 2001 --> false  
-- 2000 --> true  
-- 1900 --> false
+### Task 2
+All years divisible by 100 but not by 400 are NOT leap years (so, for example, 1700, 1800, and 1900 were NOT leap years, NOR will 2100 be a leap year)
+
+### Task 3
+All years divisible by 4 but not by 100 ARE leap years (e.g., 2008, 2012, 2016)
+
+### Task 4
+All years not divisible by 4 are NOT leap years (e.g. 2017, 2018, 2019)
 
 ## Flow
 1. Write a failing test
