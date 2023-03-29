@@ -4,13 +4,18 @@ namespace Demo;
 
 public class Calculator
 {
-    public int GetArea(Square square)
+    public int GetArea(IShape shape)
     {
-        throw new NotImplementedException();
+        return shape.GetArea();
     }
 }
 
-public class Square
+public interface IShape
+{
+    public int GetArea();
+}
+
+public class Square : IShape
 {
     public int Side { get; set; }
 
@@ -18,9 +23,14 @@ public class Square
     {
         Side = side;
     }
+
+    public int GetArea()
+    {
+        return Side * Side;
+    }
 }
 
-public class Rectangle
+public class Rectangle : IShape
 {
     public int Height { get; set; }
     public int Width { get; set; }
@@ -29,6 +39,11 @@ public class Rectangle
     {
         Height = height;
         Width = width;
+    }
+
+    public int GetArea()
+    {
+        return Height * Width;
     }
 }
 
