@@ -1,4 +1,12 @@
-# Kata 1: Leap Years
+# Kata 1: Leap Years - C# with NUnit
+
+This solution contains two projects:
+- A c# console application called `Kata1`
+- A NUnit test project called `Kata1Tests`
+
+Both are targeting `net6.0`
+
+## Kata description
 
 Implement the `IsLeap()` function of the `Year` class, so that it returns `true`
 or `false` depending on whether its input integer is a leap year or not.
