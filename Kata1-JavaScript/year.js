@@ -1,5 +1,5 @@
 const isLeap = (year) => {
-  throw new Error("Not implemented");
+  return year % 400 == 0 ? true : false;
 };
 
 module.exports = isLeap;
